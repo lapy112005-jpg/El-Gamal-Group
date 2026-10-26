@@ -35,7 +35,6 @@ const cards = [
   ...SITE.phones.map(p => ({ ic: 'phone', label: p.label, val: p.number, ltr: true, href: 'tel:' + p.number.replace(/\s+/g, '') })),
   { ic: 'wa', cls: 'wa', label: 'واتساب', val: SITE.whatsappShow, ltr: true, href: wa(hello), ext: true },
   { ic: 'tg', cls: 'tg', label: 'تليجرام', val: SITE.telegramShow, ltr: true, href: SITE.telegram, ext: true },
-  { ic: 'mail', label: 'البريد الإلكتروني', val: SITE.email, ltr: true, href: 'mailto:' + SITE.email },
   { ic: 'pin', label: 'العنوان', val: SITE.address },
   { ic: 'clock', label: 'مواعيد العمل', val: SITE.hours }
 ];
